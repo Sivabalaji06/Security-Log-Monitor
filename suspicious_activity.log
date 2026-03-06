@@ -1,0 +1,6 @@
+Suspicious activity detected from IP: 192.168.1.10
+Suspicious activity detected from IP: 10.0.0.5
+Suspicious activity detected from IP: 192.168.1.50
+ALERT: 192.168.1.10 attempted login 3 times
+ALERT: 10.0.0.5 attempted login 3 times
+ALERT: 192.168.1.50 attempted login 3 times

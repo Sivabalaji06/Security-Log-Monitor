@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Monitoring Dashboard</title>
+</head>
+<body>
+
+<h2>Suspicious Login Attempts</h2>
+
+<table border="1">
+<tr>
+<th>IP Address</th>
+<th>Failed Attempts</th>
+</tr>
+
+{% for ip, count in data.items() %}
+<tr>
+<td>{{ ip }}</td>
+<td>{{ count }}</td>
+</tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>
